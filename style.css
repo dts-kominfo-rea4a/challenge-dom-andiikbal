@@ -1,0 +1,64 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#app {
+    background-color: rgb(85, 85, 201);
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 45%;
+    padding: 35px 20px;
+    border-radius: 15px;
+}
+
+#todo-title,
+#todo-subtitle {
+    text-align: center;
+}
+
+#todo-title {
+    margin-top: 0;
+    background-color: aliceblue;
+    color: rgb(85, 85, 201);
+}
+
+#todo-subtitle {
+    margin-top: 40px;
+    color: white;
+}
+
+#todo-input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 14px;
+    border: 2px solid rgb(167, 154, 154);
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#todo-submit {
+    margin-top: 12px;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#todo-submit:hover {
+    background-color: rgb(50, 50, 218);
+}
+
+#todo-output {
+    padding: 10px 15px;
+    background-color: aliceblue;
+    color: rgb(85, 85, 201);
+}
+
+#todo-output li {
+    margin: 0 15px;
+}
